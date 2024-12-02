@@ -1,5 +1,6 @@
 import React from 'react'
 import './Maincontent.css'
+import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer'
 import artist1 from '../../Images/artist1.jpg'
 import artist2 from '../../Images/artist2.jpg'
@@ -82,8 +83,8 @@ function Maincontent() {
   return (
     <div className="main-content">
       <div className="section">
-        <a href='/populer-artist' className='main-main'>Popular artists</a>
-        <a href='/populer-artist' className='show-link-artist'>Show all</a>
+        <Link to='/populer-artist' className='main-main'>Popular artists</Link>
+        <Link to='/populer-artist' className='show-link-artist'>Show all</Link>
         <div className="artists-popular">
           {popularArtists.map((artist, index) => (
             <div key={index} className="artist">
@@ -97,8 +98,8 @@ function Maincontent() {
       </div>
 
       <div className="section">
-        <a href='/populer-album' className='main-main'>Popular albums and singles</a>
-        <a href='/populer-album' className='show-link-album'>Show all</a>
+        <Link to='/populer-album' className='main-main'>Popular albums and singles</Link>
+        <Link to='/populer-album' className='show-link-album'>Show all</Link>
         <div className="albums">
           {popularAlbums.map((album, index) => (
             <div key={index} className="album">
@@ -112,8 +113,8 @@ function Maincontent() {
       </div>
 
       <div className="section">
-        <a href='/populer-radio' className='main-main'>Popular radio</a>
-        <a href='/populer-radio' className='show-link-radio'>Show all</a>
+        <Link to='/populer-radio' className='main-main'>Popular radio</Link>
+        <Link to='/populer-radio' className='show-link-radio'>Show all</Link>
         <div className="artists">
           {popularRadio.map((artist, index) => (
             <div key={index} className="radio">
@@ -127,8 +128,8 @@ function Maincontent() {
       </div>
 
       <div className="section">
-        <a href='/featured-charts'className='main-main'>Featured Charts</a>
-        <a href='/featured-charts' className='show-link-charts'>Show all</a>
+        <Link to='/featured-charts' className='main-main'>Featured Charts</Link>
+        <Link to='/featured-charts' className='show-link-charts'>Show all</Link>
         <div className="artists">
           {featuredCharts.map((artist, index) => (
             <div key={index} className="charts">
@@ -143,8 +144,8 @@ function Maincontent() {
 
 
       <div className="section">
-        <a href='/playlists' className='main-main'>Playlists from our Editors</a>
-        <a href='/playlists' className='show-link-playlists'>Show all</a>
+        <Link to='/playlists' className='main-main'>Playlists from our Editors</Link>
+        <Link to='/playlists' className='show-link-playlists'>Show all</Link>
         <div className="artists">
           {playlists.map((artist, index) => (
             <div key={index} className="playlist">

@@ -1,0 +1,8 @@
+<script>
+    var redirectTo = window.location.pathname.replace('/browse-podcasts', '');
+    if (!redirectTo.startsWith('/Spotify-clone')) {
+      redirectTo = '/Spotify-clone' + redirectTo;
+    }
+    window.location.href = redirectTo;
+  </script>
+  

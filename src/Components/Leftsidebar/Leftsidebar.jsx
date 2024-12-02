@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Leftsidebar.css'
 import { TbWorld } from "react-icons/tb";
 import { BiLibrary } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 
 function Leftsidebar({ resetOnPageLoad  = true }) {
   const [isExpanded, setIsExpanded] = useState(true);
@@ -42,7 +43,10 @@ function Leftsidebar({ resetOnPageLoad  = true }) {
         <div className="library-section">
           <h3>Let's find some podcasts to follow</h3>
           <p>We'll keep you updated on new episodes</p>
-          <button className='btn-browse'><a href='/browse-podcasts' className='action-button-browse'>Browse podcasts</a></button>
+          <button className='btn-browse'>
+            <Link to='/browse-podcasts' className='action-button-browse'>Browse podcasts</Link>
+          </button>
+
         </div>
       </div>
 
