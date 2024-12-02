@@ -1,0 +1,69 @@
+.artist-page {
+    border-radius: 1rem;
+}
+
+.view-artists {
+    flex-grow: 1;
+    padding: 2rem;
+    overflow-y: scroll;
+    width: 69.2vw;
+    height: 83vh;
+    margin-top: 6rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 32.7rem;
+    overflow-x: hidden;
+}
+
+.view-section {
+    margin-bottom: 3rem;
+    
+}
+
+.main-title-artist {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    margin-top: auto;
+}
+
+.all-artists {
+    display: flex;
+    gap: 0rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.artist-artist {
+    background-color: #121212; /* Default background color */
+    color: white; /* Default text color */
+    padding: 16px; /* Inner padding for the card */
+    border-radius: 8px; /* Rounded corners */
+    text-align: left; /* Centers text */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    gap: 5rem;
+    position: relative;
+    
+}
+
+.artist-artist:hover {
+    /* background-color: red;
+    transform: scale(1.05); */
+    background-color: #1e1e1e;
+  }
+
+  .artist-artist:hover .play-icon {
+    opacity: 1;
+  }
+
+.artist-artist-image {
+    width: 14.2rem;
+    height: 14.2rem;
+    background-color: #333;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+

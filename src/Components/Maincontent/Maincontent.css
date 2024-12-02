@@ -1,0 +1,274 @@
+.main-content {
+    flex-grow: 1;
+    padding: 2rem;
+    overflow-y: scroll;
+    width: 69.2vw;
+    margin-top: 6rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 31.5rem;
+  }
+
+  .show-link-artist {
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline;
+    margin-left: 63rem;
+    text-decoration: none;
+  }
+
+  .show-link-album {
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline;
+    margin-left: 51rem;
+    text-decoration: none;
+  }
+
+  .show-link-radio {
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline;
+    margin-left: 64rem;
+    text-decoration: none;
+  }
+
+  .show-link-charts {
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline;
+    margin-left: 62rem;
+    text-decoration: none;
+  }
+
+  .show-link-playlists {
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline;
+    margin-left: 53rem;
+    text-decoration: none;
+  }
+
+  a {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0;
+    cursor: pointer;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  h3 {
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+
+  .album-title {
+    margin-top: 0.5rem;
+  }
+
+  .albumtitle:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-top: -1rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    color: rgb(155, 155, 155);
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+
+  .main-main {
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline;
+    text-decoration: none;
+  }
+
+  .artists-popular{
+    display: flex;
+    gap: 0rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    cursor: pointer;
+
+  }
+  
+  .artists,
+  .albums {
+    display: flex;
+    gap: 0rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+
+  .artist-name:hover {
+    text-decoration: underline;
+  }
+
+  .album-title:hover {
+    text-decoration: underline;
+  }
+
+  .album-artist:hover {
+    text-decoration: underline;
+  }
+
+
+  .artist:hover,
+  .album:hover,
+  .radio:hover,
+  .charts:hover,
+  .playlist:hover {
+    background-color: #1e1e1e;
+  }
+
+  .radio {
+    /* text-align: left; */
+    background-color: #121212; /* Default background color */
+    color: white; /* Default text color */
+    padding: 16px; /* Inner padding for the card */
+    border-radius: 8px; /* Rounded corners */
+    text-align: left; /* Centers text */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    gap: 5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .radio h3 {
+    padding-top: 2.2rem;
+    font-weight: 400;
+    color: gray;
+    font-size: 1.1rem;
+  }
+
+
+  .charts {
+    background-color: #121212; /* Default background color */
+    color: white; /* Default text color */
+    padding: 16px; /* Inner padding for the card */
+    border-radius: 8px; /* Rounded corners */
+    text-align: left; /* Centers text */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    gap: 5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .charts h3 {
+    padding-top: 2.2rem;
+    font-weight: 400;
+    color: gray;
+    font-size: 1.1rem;
+  }
+
+  .playlist {
+    background-color: #121212; /* Default background color */
+    color: white; /* Default text color */
+    padding: 16px; /* Inner padding for the card */
+    border-radius: 8px; /* Rounded corners */
+    text-align: left; /* Centers text */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    gap: 5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .playlist h3 {
+    padding-top: 2.2rem;
+    font-weight: 400;
+    color: gray;
+    font-size: 1.1rem;
+  }
+  
+  .artist,
+  .album {
+    /* text-align: left; */
+    background-color: #121212; /* Default background color */
+    color: white; /* Default text color */
+    padding: 16px; /* Inner padding for the card */
+    border-radius: 8px; /* Rounded corners */
+    text-align: left; /* Centers text */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    gap: 5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .artist-image,
+  .album-cover {
+    width: 11.5rem;
+    height: 11.5rem;
+    background-color: #333;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+
+  .album-cover-popular {
+    width: 11.5rem;
+    height: 11.5rem;
+    background-color: #333;
+    border-radius: 1rem;
+  }
+  
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    width: 18rem;
+    height: 12.5rem;
+  }
+
+  .artist:hover .play-icon {
+    opacity: 1;
+  }
+
+  .album:hover .play-icon {
+    opacity: 1;
+  }
+
+  .radio:hover .play-icon {
+    opacity: 1;
+  }
+
+  .charts:hover .play-icon {
+    opacity: 1;
+  }
+
+  .playlist:hover .play-icon {
+    opacity: 1;
+  }
+
+
+  

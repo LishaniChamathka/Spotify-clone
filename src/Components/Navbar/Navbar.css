@@ -1,0 +1,202 @@
+.top-nav-bar {
+  width: 100vw;
+  height: 5rem;
+  top: 0;
+  background-color: black;
+  color: black;
+  position: fixed;
+  display: flex;
+}
+
+.logo {
+  width: 4.5rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 27rem;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  margin: 0 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* .home-icon {
+  width: 2rem;
+  height: 2rem;
+  background: white;
+  border-radius: 50%;
+} */
+
+.home-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem; /* Set circular dimensions */
+  height: 3.5rem;
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 50%; /* Makes it circular */
+  color: white; /* Icon color */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer;
+  margin-left: 5.9rem;
+  transition: all 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #333333; /* Slightly lighter background on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.home-icon {
+  font-size: 2.5rem; /* Adjust icon size */
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+/* .search-icon {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 8px;
+} */
+
+.search-bar input {
+  background: none;
+  border: none;
+  color: white;
+  width: 25rem;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.divider-line {
+  width: 0.13rem;
+  height: 2rem;
+  background-color: #555; /* Light gray color for contrast */
+  margin-left: 5rem;
+}
+
+/* .collection-icon {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+} */
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: -6rem;
+}
+
+.signup-button,
+.login-button {
+  background: none;
+  border: none;
+  color: white;
+  margin: 0 1rem;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.signup-button {
+  color: grey;
+  margin-left: -6rem;
+  transition: transform 0.3s ease;
+}
+
+.signup-button:hover {
+  color: white; 
+  transform: scale(1.05);
+}
+
+.login-button {
+  background: white;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+/*search bar css*/
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 15rem;
+  padding: 1rem 1.5rem;
+  width: 30rem; /* Adjust width as needed */
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar:hover {
+  background-color: #272626;
+}
+
+.search-icon {
+  font-size: 1.5rem;
+  margin-right: 10px; /* Space between icon and input */
+  color: #c0c0c0; /* Slightly lighter color for the icon */
+}
+
+.search-input {
+  flex: 1; /* Take up available space */
+  background: none;
+  border: none;
+  outline: none;
+  color: #c0c0c0; /* Text color */
+  font-size: 1rem;
+}
+
+.search-input::placeholder {
+  color: #c0c0c0; /* Placeholder text color */
+}
+
+.divider {
+  width: 0.1rem;
+  height: 1.5rem;
+  background-color: #626161; /* Divider color */
+  margin: 0 10px;
+}
+
+.game-icon {
+  font-size: 1.7rem;
+  color: #c0c0c0; /* Slightly lighter color for the icon */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.game-icon:hover {
+  color: white; 
+  transform: scale(1.05);
+}

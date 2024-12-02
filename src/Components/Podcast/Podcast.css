@@ -1,0 +1,167 @@
+/* General styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1b1b1b;
+    color: #fff;
+  } */
+
+  header {
+    /* background-color: #146542; */
+    background: linear-gradient(to bottom, #22917b, #103f2b);
+    width: 100vw;
+    height: 17rem;
+    margin-left: -2rem;
+    margin-top: -9rem;
+  }
+  
+  header h1 {
+    font-size: 8rem;
+    color: #fff;
+    text-align: left;
+    margin-left: 1.5rem;
+    padding-top: 5.5rem;
+  }
+  
+  /* Categories section */
+  .categories-section {
+    margin-top: 1rem;
+    width: 60vw;
+  }
+
+  .Podcast-section {
+    flex-grow: 1;
+    padding: 2rem;
+    overflow-y: scroll;
+    width: 69.2vw;
+    height: 83vh;
+    margin-top: 6rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 32.7rem;
+    overflow-x: hidden;
+    background: linear-gradient(to top, #121212, #121212, #121212, #22917b);
+  }
+  
+  .categories-section h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+  
+  /* Grid styling */
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 8rem;
+  }
+  
+  .category-card {
+    width: 15rem;
+    height: 7rem;
+    position: relative;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #282828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -7rem;
+  }
+
+  .category-card h3 {
+    font-size: 1.7rem;
+    /* margin-bottom: 10px; */
+    margin-top: -4.5rem;
+    margin-left: -7rem;
+  }
+  
+  /* .category-card img {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  } */
+  
+  /* Different background colors for each category */
+  .category-card:nth-child(1) {
+    background: #2b7489; /* Educational */
+  }
+  
+  .category-card:nth-child(2) {
+    background: #6c5474; /* Documentary */
+  }
+  
+  .category-card:nth-child(3) {
+    background: #a8408c; /* Comedy */
+  }
+  
+  .category-card:nth-child(4) {
+    background: #e53990; /* Pop Culture */
+  }
+
+  /* Fitness & Nutrition */
+  /* .category-card:nth-child(5) {
+    background: #3b8f7f; 
+  } */
+  
+  .category-card:nth-child(5) {
+    background: #746e6d; /* Celebrities */
+  }
+  
+  .category-card:nth-child(6) {
+    background: #8a73b3; /* TV */
+  }
+  
+  .category-card:nth-child(7) {
+    background: #a15b3f; /* Beauty */
+  }
+
+  .category-card:nth-child(8) {
+    background: rgb(0, 155, 252); /* Beauty */
+  }
+
+  .category-card:nth-child(9) {
+    background: #0131aa; /* Beauty */
+  }
+  
+  /* Optional: Thumbnail image inside card */
+  /* .category-card img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+   */
+
+   .categories-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #1c1c1c; /* Adjust for the black background */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border-radius: 10rem; /* Rounded corners */
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+  
+  .categories-link:hover {
+    background-color: #333333; /* Slightly lighter background on hover */
+    text-decoration: none;
+  }
+  
+  .arrow {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

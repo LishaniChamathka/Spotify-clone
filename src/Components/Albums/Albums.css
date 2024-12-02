@@ -1,0 +1,53 @@
+.album-page {
+    flex-grow: 1;
+    padding: 2rem;
+    overflow-y: scroll;
+    width: 69.2vw;
+    height: 83vh;
+    margin-top: 6rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 32.7rem;
+    overflow-x: hidden;
+}
+
+.album-image {
+    width: 14.2rem;
+    height: 14.2rem;
+    background-color: #333;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.album-tit {
+    margin-top: -2rem;
+}
+
+.album-tit:hover {
+    text-decoration: underline;
+}
+
+.maintitle-album {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    margin-top: auto;
+}
+
+.playicon-radio {
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    width: 18rem;
+    height: 12.5rem;
+}
+
+
+

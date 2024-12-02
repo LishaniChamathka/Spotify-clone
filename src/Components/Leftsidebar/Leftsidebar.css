@@ -1,0 +1,270 @@
+.sidebar {
+    /* width: 25%;
+    height: auto;
+    background-color: #121212;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem; */
+    /* margin-top: 6rem;
+    margin-left: 0.3rem;
+    margin-bottom: 0.5rem; */
+    /* margin: 6rem 0.3rem 0.5rem 0.3rem; */
+    /* margin-top: 6rem;
+    transition: all 0.3s ease-in-out; */
+
+    position: fixed; /* Keeps the sidebar in the same position */
+    top: 0;
+    left: 0;
+    width: 30rem; /* Fixed width */
+    height: 86vh; /* Sidebar takes the full height of the viewport */
+    background-color: #121212; /* Sidebar background color */
+    padding: 1rem; /* Consistent padding */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto; /* Allows scrolling if the content exceeds the viewport */
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+
+  .sidebar.collapsed {
+    /* margin: 2rem 0.3rem 0.5rem 0.3rem; */
+    margin: 2rem 0 0.5rem 0;
+    /* width: 25%; */
+  }
+
+  .sidebar.expanded {
+    margin: 6rem 0.3rem 0.5rem 0.3rem;
+    /* width: 25%; */
+  }
+  
+  .library-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .library-title {
+    /* display: flex;
+    align-items: center; */
+    font-size: 1.2rem;
+  font-weight: bold;
+  }
+  
+  .add-button {
+    background: none;
+    color: #797979;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+
+    /* color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 1rem; */
+  }
+
+  .add-button:hover {
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  
+  .library-content {
+    flex-grow: 1;
+  }
+  
+  .library-section {
+    margin-top: 2rem;
+    background: rgba(128, 128, 128, 0.07);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .library-icon{
+    font-size: 2rem;
+    color: #a5a5a5;
+    padding-top: 1rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+  }
+
+  .title-area {
+    margin-left: -16rem;
+    margin-top: 0.4rem;
+  }
+
+  .librarry-title {
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    display: inline;
+    color: #a5a5a5;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .library-icon:hover,
+  .librarry-title:hover {
+    color: white;
+  }
+
+  .library-section h3 {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  .library-section p {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  /* .action-button {
+    background: white;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem  1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  } */
+
+  .action-button-create {
+    background: white;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem  1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  .action-button-browse {
+    /* background: white;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 10rem;
+    padding-top: 0rem;
+    padding: 0rem 1rem 0.7rem 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: transform 0.3s ease; */
+
+    /* background: white;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem  1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: transform 0.3s ease; */
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+  }
+
+  .btn-browse {
+    border-radius: 10rem;
+    background-color: white;
+    padding: 1rem 1rem 0.7rem 1rem;
+    margin-left: 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  .btn-browse:hover {
+    color: black;
+    text-decoration: none;
+    transform: scale(1.05);
+  }
+
+  .action-button-browse:hover {
+    color: black;
+    text-decoration: none;
+    transform: scale(1.05);
+  }
+
+  .action-button-create:hover {
+    color: black;
+    text-decoration: none;
+    transform: scale(1.05);
+  }
+  
+  .sidebar-footer {
+    margin-top: 0rem;
+    font-size: 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links li {
+    /* margin-bottom: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0.5rem 0.7rem;
+    font-size: 1rem; */
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+  }
+
+  .footer-cooky {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.7rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .footer-cooky:hover {
+    text-decoration: underline;
+  }
+  
+  .language-button {
+    background: none;
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 10rem;
+    padding: 0.5rem 1rem ;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .message-box {
+    margin-left: 15rem;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .world-icon {
+    font-size: 1.2rem;
+    padding-top: 0rem;
+    margin-right: 0.3rem;
+  }
