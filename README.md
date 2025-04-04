@@ -1,10 +1,10 @@
-Spotify Clone (Frontend)
+#Spotify Clone (Frontend)
 
-Project Overview
+##Project Overview
 
 A visually appealing front-end clone of Spotify built using React. This project focuses on replicating the look and feel of Spotify's user interface, showcasing responsive design and interactive components.
 
-Tech Stack
+##Tech Stack
 
 React JS – Frontend framework
 
@@ -14,7 +14,7 @@ CSS – Custom styling for layout and responsiveness
 
 React Icons – For UI icons
 
-Features
+##Features
 
 Responsive and clean user interface
 
@@ -26,7 +26,7 @@ Smooth UI interactions and hover effects
 
 Dynamic component rendering
 
-What I Learned
+##What I Learned
 
 Component-based architecture in React
 
@@ -36,7 +36,7 @@ Working with reusable components and props
 
 Optimizing app structure using Vite
 
-Live Preview
+##Live Preview
 
 https://lishanichamathka.github.io/Spotify-clone/
 
